@@ -1,0 +1,313 @@
+@import "reset.css";
+@import "font-awesome.css";
+@font-face{
+    font-family: Montserrat-Bold;
+    src: local("Montserrat-Bold"),
+    url(../path-in/Montserrat-Bold.otf);
+}
+@font-face{
+    font-family: Montserrat-Regular;
+    src: local("Montserrat-Regular"),
+    url(../path-in/Montserrat-Regular.otf);
+}
+@font-face{
+    font-family: Ubuntu-R;
+    src: local("Ubuntu-R"),
+    url(../path-in/Ubuntu-R.ttf);
+}
+@font-face{
+    font-family: FontAwesome;
+    src: local("FontAwesome"),
+    url(../path-in/FontAwesome.otf);
+}
+@font-face {
+    font-family: Ubuntu-M;
+    src: local("Ubuntu-M"),
+    url(../path-in/Ubuntu-M.ttf);
+}
+h2{
+    font-family: Montserrat-Bold;
+    font-size: 31px;
+}
+h3{
+    font-family: Ubuntu-M;
+    color: #777a7d;
+    font-size: 20px;
+}
+h1{
+    font-family: Montserrat-Regular;
+}
+p{
+    font-family: Ubuntu-R;
+    font-size: 16px;
+    color: #828282;
+}
+h4{
+    font-family: Ubuntu-B;
+    font-size: 25px;
+    color: #fff;
+}
+#first{ /*Первый главный блок*/
+    padding: 220px 0;
+    background-color:#525b64;
+}
+#start{
+    width: 555px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.b1{ /*Кнопка первая*/
+    background-color:#7ea4e8;
+    width: 160px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 7.5px;
+    border: none;
+    color: #fff;
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#b2{ /*Кнопка вторая*/
+    background-color: #6a7079;
+    width: 160px;
+    height: 50px;
+    border-radius: 7.5px;
+    border: none;
+    color: #fff;
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    text-transform: uppercase;
+    /*font: caption;*/
+}
+#november{ /*Текст*/
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+#tex{ /*Текст*/
+    width: 605px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 43px;
+    font-size: 20px;
+}
+#buttns{ /*Блок с кнопками*/
+    width: 355px;
+    margin: 0 auto;
+}
+#buttns button:focus{
+    outline: none;
+}
+#second{
+    padding: 100px 0;
+}
+#event{
+    margin-top: 100px;
+    font-family: Montserrat-Regular;
+    font-size: 30px;
+    text-align: center;
+    color: #6a7079;
+    margin-bottom: 16px;
+}
+.centtext{
+    width: 515px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 22px;
+    text-align: center;
+    color: #828689;
+    margin-bottom: 35px;
+}
+#lucy{
+    text-align: center;
+    color: #2cc7c1;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.nametext{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.text{
+    margin: 0 auto;
+    text-align: center;
+    width: 224px;
+}
+.column{
+    width: 265px;
+    display: inline-block;
+}
+.column img{
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+#columns{
+    width: 1102px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+#a{
+    margin-bottom: 33px;
+}
+#third{
+    height: 9px;
+    background-color: #f0f0f1;
+    /*margin-bottom: 125px;*/
+}
+#fourth{
+    padding: 125px 0;
+    width: 1140px;
+    margin: 0 auto;
+}
+.prom{
+    font-size: 30px;
+    color: #828689;
+    text-align: left;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+.sed{
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 29px;
+}
+.nemo{
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 33px;
+}
+.link{
+    text-decoration: none;
+    font-family: Montserrat-Bold;
+    color: #2cc7c1;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.link2{
+    font-family: Ubuntu-M;
+    text-decoration: none;
+    color: #2cc7c1;
+    font-size: 16px;
+}
+#youtubemovie{
+    float: left;
+    margin-right: 100px;
+}
+#footer{
+    background-color: #525b64;
+    padding: 84px 0 0 0;
+}
+#wrapper:after{
+    display: block;
+    content:"";
+    clear: both;
+}
+#block1{
+    margin-bottom: 140px;
+}
+
+#slider{
+    float: right;
+    margin-left: 110px;
+}
+#block2{
+    margin-bottom: 70px;
+}
+.image{
+    display: inline-block;
+}
+#i1{
+    margin-right: 60px;
+}
+#i2{
+    margin-right: 88px;
+}
+#i3{
+    margin-right: 95px;
+}
+#i4{
+    margin-right: 95px;
+}
+#peop{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+.span{
+    font-family: Ubuntu-B;
+    font-size: 25px;
+    font-weight: bold;
+}
+.peop{
+    line-height: 1.5;
+    width: 450px;
+    color:#cdd0d2;
+    margin-bottom: 26px;
+}
+.serv{
+    display: inline-block;
+}
+.serv img{
+    margin-right: 15px;
+}
+#left{
+    float: left;
+    margin: 0 auto;
+    margin-right: 127px;
+    display: inline-block;
+}
+#left:after{
+    display: block;
+    content:"";
+    clear: both;
+}
+.NeHe{
+    color: #fff;
+    margin-bottom: 31px;
+}
+#midle{
+    display: inline-block;
+    width: 278px;
+}
+#rigth{
+    float: right;
+    /*display: inline-block;*/
+    width: 180px;
+}
+#ifynh{
+    line-height: 1.5;
+    color: #cdd0d2;
+}
+#blocks{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+#blocks:after{
+    display: block;
+    clear:both;
+    content:"";
+}
+.ot{
+    line-height: 1.5;
+}
+#copyrigth{
+    display:block;
+    height: 40px;
+    background-color: #3f464c;
+}
+#copyrigth p{
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+
+
